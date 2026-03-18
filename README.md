@@ -57,7 +57,7 @@ Download and run the installer script.
 The script installs Node.js if it is not already present, then runs the guided onboard wizard to create a sandbox, configure inference, and apply security policies.
 
 ```console
-$ curl -fsSL https://nvidia.com/nemoclaw.sh | bash
+curl -fsSL https://nvidia.com/nemoclaw.sh | bash
 ```
 
 When the install completes, a summary confirms the running environment:
@@ -80,7 +80,7 @@ Logs:        nemoclaw my-assistant logs --follow
 Connect to the sandbox, then chat with the agent through the TUI or the CLI.
 
 ```console
-$ nemoclaw my-assistant connect
+nemoclaw my-assistant connect
 ```
 
 #### OpenClaw TUI
